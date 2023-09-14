@@ -1,0 +1,260 @@
+body{
+    background-color:#f7d4e4;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+header{
+    background-color: rgb(219, 124, 140);
+    width:100%;
+    padding: 3px;
+    /*nav line*/
+}
+
+header h1{
+    /*tulisan*/
+    padding: 10px;
+    color: white;
+}
+
+header h2{
+    /*tulisan*/
+    padding: 10px;
+    color: white;
+}
+
+.center{
+    text-align:center;
+}
+
+/*aside{
+    width:100%;
+    background-color:#f7d4e4;
+}
+
+aside{
+    background-color:#f7d4e4;
+    padding: 3px;
+}*/
+
+aside{
+    margin-top: 0.1in;
+    margin-bottom: 0.1in;
+    float: left;
+    width:40%;
+    background-color:#f7d4e4;
+}
+
+aside nav{
+    padding: 2px;
+}
+
+
+aside nav ul{
+    /*list-style-type: url("bee.png");*/
+    list-style-type: none;
+    padding: 8px;
+    margin-top: 7px;
+    /* list-style-type: circle; */
+}
+
+aside nav ul li{
+    display: block;
+    padding: 8px;
+    margin-top:7px;
+}
+
+aside nav ul li a{
+    /*line luar kotak nav*/
+    text-decoration: none;
+    border:2px solid pink;
+    border-radius: 25px;
+    display: block;
+    /*text-shadow: 2px 2px white;
+    margin:3px;*/
+    padding: 10px;
+    font-weight: bold;
+}
+
+aside nav ul li a:link{
+    /*kalau nav button belom tekan*/
+    background-color: pink;
+    color: black;
+}
+
+aside nav ul li a:visited{
+    /*nav button yg dh tekan*/
+    background-color: pink;
+    color: black;
+}
+
+aside nav ul li a:hover{
+    /*time lalu*/
+    background-color:pink;
+    /*tulisan dlm kotak nav*/
+    color: black;
+}
+
+aside nav ul li a:active{
+    background-color: pink;
+    color: black;
+}
+
+header nav ul{
+    /*list-style-type: url("bee.png");*/
+    list-style-type: none;
+    /* list-style-type: circle; */
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    /*line luar kotak nav*/
+    text-decoration: none;
+    border:2px solid rgb(233, 236, 204);
+    border-radius: 8px;
+    margin:3px;
+    padding: 3px 10px;
+}
+
+header nav ul li a:link{
+    /*kalau nav button belom tekan*/
+    background-color: rgb(50, 44, 35);
+    color: rgb(219, 66, 66);
+}
+
+header nav ul li a:visited{
+    /*nav button yg dh tekan*/
+    background-color: rgb(184, 138, 78);
+    color: black;
+}
+
+header nav ul li a:hover{
+    /*time lalu*/
+    background-color:burlywood;
+    /*tulisan dlm kotak nav*/
+    color: black;
+}
+
+header nav ul li a:active{
+    background-color: rgb(184, 138, 78);
+    color: black;
+}
+
+
+section article {
+    margin-bottom: 0.5in;
+}
+
+section article header h2{
+    padding: 10px;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+
+.justify {
+    text-align: justify;
+    padding: 0px 1in;
+}
+
+.right {
+    text-align: right;
+}
+
+.btn {
+    background-color: rgb(184, 138, 78);
+    color: black;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 5;
+}
+
+change {
+    background-color: selectedIndex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: khaki;
+}
+
+.flex-container>div {
+    background-color: khaki;
+    width: auto;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.imageCenter {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 30%*/
+    max-width: 100%;
+}
+
+.size {
+    width: 480px;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+}
+
+@media screen and (max-width:800px) {
+    header,
+    section,
+    aside,
+    footer {
+        width: 100%;
+        padding: 0;
+    }
+    .imagineCenter ,
+    .tblCenter {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    header,
+    aside,
+    section,
+    footer {
+        width: 100%;
+        padding: 0;
+    }
+    .imagineCenter ,tblCenter {
+        width: 100%;
+    }
+}
+
+
+.imageCenter {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 30%*/
+    max-width: 100%;
+}
+
+footer {
+    background-color: rgb(219, 124, 140);
+
+}
+
+footer h5 {
+    
+    padding: 10px;
+
+}
